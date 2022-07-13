@@ -4,7 +4,7 @@ Desafio 01 do Curso 01 de Docker da Plataforma Fullcycle
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
-docker run <seu-user>/codeeducation
+```docker run gabrielsimas/codeeducation```
 
 Temos que ter o seguinte resultado: Code.education Rocks!
 
@@ -17,7 +17,3 @@ Lembrando que a Go Lang possui imagens oficiais prontas, vale a pena consultar o
 Dica: No vídeo de introdução sobre o Docker quando falamos sobre o sistema de arquivos em camadas, apresento uma imagem "raiz", talvez seja uma boa utilizá-la.
 
 Divirta-se
-
-Para utilizar a imagem gerada, execute o comando:
-
-```docker pull gabrielsimas/codeeducation```
